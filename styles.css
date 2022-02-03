@@ -9,77 +9,30 @@
     
     margin: 0 auto;
     width: 302px;
-    cursor: pointer;
     clear: both;
 }
-#leftL{
+
+.row > div{ 
+    float: left;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    line-height: 100px
+}
+.leftL{
     border-bottom: red 1px solid;
     border-right: green 1px solid;
 }
 
-#horiz{
+.horiz{
     border-bottom: black 1px solid;
 }
 
-#vert{
+.vert{
     border-right: purple  1px solid;
 }
 
-.topLeft {
+.refButton{
+    clear: left;
     float: left;
-    height: 100px;
-    width: 100px;
-       
-}
-
-.topMiddle{
-    float: left;
-    height: 100px;
-    width: 100px;
-
-}
-
-.topRight{
-    float: left;
-    height: 100px;
-    width: 100px;
-
-
-}
-
-.midLeft{
-    float: left;
-    height: 100px;
-    width: 100px;
-}
-
-.midCenter{
-    float: left;
-    height: 100px;
-    width: 100px;
-
-}
-
-.midRight{
-    float: left;
-    height: 100px;
-    width: 100px;
-}
-
-.bottomLeft{
-    float: left;
-    height: 100px;
-    width: 100px;
-}
-
-.bottomMiddle{
-    float: left;
-    height: 100px;
-    width: 100px;
-}
-
-.bottomRight{
-    float: left;
-    height: 100px;
-    width: 100px;
 }
